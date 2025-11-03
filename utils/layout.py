@@ -39,6 +39,21 @@ def inject_css():
             .stSidebar {
                 background: linear-gradient(180deg, #2c3e50 0%, #34495e 100%);
                 padding: 0;
+                font-size: 0.9em;
+            }
+            .stSidebar .stSelectbox > div > div > div {
+                font-size: 0.85em !important;
+            }
+            .stSidebar .stSlider > div > div > div > div {
+                font-size: 0.85em !important;
+            }
+            .stSidebar .stButton > button {
+                font-size: 0.85em !important;
+                padding: 6px 12px !important;
+            }
+            .stSidebar label {
+                font-size: 0.85em !important;
+                font-weight: 500 !important;
             }
             .stSidebar [data-testid="stSidebarNav"] ul {
                 padding: 1rem 0;
@@ -49,15 +64,16 @@ def inject_css():
             .stSidebar [data-testid="stSidebarNav"] a {
                 color: #ffffff !important;
                 background: rgba(255, 255, 255, 0.05);
-                padding: 12px 16px;
+                padding: 8px 12px;
                 border-radius: 8px;
                 margin: 4px 8px;
                 transition: all 0.3s ease;
                 text-decoration: none;
                 display: block;
-                font-weight: 600;
+                font-weight: 500;
                 text-transform: uppercase;
-                letter-spacing: 1px;
+                letter-spacing: 0.5px;
+                font-size: 0.85em;
             }
             .stSidebar [data-testid="stSidebarNav"] a:hover {
                 background: rgba(52, 152, 219, 0.2);
@@ -72,11 +88,13 @@ def inject_css():
             .css-1cypcdb.eczjsme11 a {
                 color: #bdc3c7 !important;
                 text-decoration: none !important;
-                padding: 12px 16px !important;
+                padding: 8px 12px !important;
                 border-radius: 8px !important;
                 transition: all 0.3s ease !important;
                 margin: 4px 0 !important;
                 display: block !important;
+                font-size: 0.85em !important;
+                font-weight: 500 !important;
             }
             .css-1cypcdb.eczjsme11 a:hover {
                 background: rgba(52, 152, 219, 0.2) !important;
